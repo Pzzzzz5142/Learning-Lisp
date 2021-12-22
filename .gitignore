@@ -53,3 +53,5 @@ dkms.conf
 
 # VS Code
 .vscode/*
+mpc.h
+mpc.c
