@@ -21,3 +21,8 @@ controlled text
 ```
 
 用来根据`MACRO`判断是否编译`controlled text`中的内容。
+
+# Chapter 6
+
+## ~~（自己给自己挖的坑）~~如何用 C++ 调用 C 的库？
+
