@@ -26,3 +26,16 @@ controlled text
 
 ## ~~（自己给自己挖的坑）~~如何用 C++ 调用 C 的库？
 
+用`extern`关键字。然后链接生成一个动态库。
+
+# Chapter 7 
+
+## 三目运算符不能确定重载。
+
+平时写 python 写习惯了，动态类型真的很好用，但是 C++ 没有那么自由。三目运算符的返回值在编译阶段就已经确定了，而不是在运行时可以动态调整了，所以在给函数传递参数的时候不能通过三目运算符达到执行不同重载函数的作用。
+
+# Chapter 8
+
+## 采用 Exception 来完成 Error Handling。
+
+因为我选择用 C++ 来实现，所以错误处理与教程中的方法有些许的不一样，具体做法参考的[这里](https://docs.microsoft.com/en-us/cpp/cpp/errors-and-exception-handling-modern-cpp?view=msvc-170)。
